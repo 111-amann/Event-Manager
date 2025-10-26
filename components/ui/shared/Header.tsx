@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { Button } from "../button";
-import Navitems from "./Navitems";
+import NavItems from "./NavItems";
 import MobileNav from "./MobileNav";
 
 const Header = () => {
@@ -20,7 +20,7 @@ const Header = () => {
         </Link>
         <SignedIn>
           <nav className="md:flex-between hidden w-full max-w-xs">
-            <Navitems />
+            <NavItems />
           </nav>
         </SignedIn>
 
