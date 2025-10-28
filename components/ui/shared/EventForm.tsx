@@ -163,7 +163,7 @@ const EventForm = ({ userId, type }: EventFormprops) => {
                     </p>
                     <DatePicker
                       selected={field.value}
-                      onChange={(date: Date) => field.onChange(date)}
+                      onChange={(date: Date | null) => field.onChange(date)}
                       showTimeSelect
                       timeInputLabel="Time:"
                       dateFormat="MM/dd/yyyy h:mm aa"
